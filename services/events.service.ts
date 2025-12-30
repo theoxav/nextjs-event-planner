@@ -23,6 +23,7 @@ export async function getEventById(id: string) {
       headers: {
         Cookie: cookieHeader,
       },
+      cache: 'no-store',
     }
   );
 
